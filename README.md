@@ -2,7 +2,8 @@
 Intro
 -----
 
-Getting GEval evaluation tool (should work on 64-bit Linuxes)
+Getting GEval evaluation tool (should work on 64-bit Linuxes); other options for installation
+at https://gitlab.com/filipg/geval#installing
 
     wget https://gonito.net/get/bin/geval
     chmod u+x geval
