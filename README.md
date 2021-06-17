@@ -37,7 +37,7 @@ What's wrong with "Lol"?
 Puzzle — what's wrong in this output of a Machine Translation system?
 
     cd ..
-    git clone git://gonito.net/wmt-2017 -b submission-01229 --single-branch
+    git clone https://gitlab.com/filipg/wmt-2017.git -b submission-01229 --single-branch
 
 Kleister information extraction challenges
 ------------------------------------------
@@ -45,11 +45,12 @@ Kleister information extraction challenges
     git clone https://github.com/applicaai/kleister-nda
     cd kleister-nda
     cat dev-0/expected.tsv | head -n 1
-
     cd ..
+
     git clone https://github.com/applicaai/kleister-charity
     cd kleister-charity
     cat dev-0/expected.tsv | head -n 1
+    cd ..
 
 Sample solution to Kleister NDA
 -------------------------------
