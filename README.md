@@ -49,3 +49,13 @@ Kleister information extraction challenges
     git clone https://github.com/applicaai/kleister-charity
     cd kleister-charity
     cat dev-0/expected.tsv | head -n 1
+
+Sample solution to Kleister NDA
+-------------------------------
+
+    git clone https://github.com/applicaai/kleister-nda -b baseline
+    cd kleister-nda
+
+    ../geval -t dev-0
+
+    ../geval -t dev-0 --line-by-line -s | cut -f 1,4-5 | head -n 10
